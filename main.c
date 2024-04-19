@@ -14,7 +14,7 @@ int main(void){
 
     //-------------------------------------------------------------------------------------------------------------------------
         
-    //PRIMEIRO ARQUIVO - modo aleatorios
+    //PRIMEIRO ARQUIVO - modo aleatorio
     
     //abertura do arquivo e verificacao
     FILE *f1;
@@ -43,7 +43,7 @@ int main(void){
         
     //SEGUNDO ARQUIVO - modo aleatorio restrito
 
-        //abertura do arquivo e verificacao
+    //abertura do arquivo e verificacao
     FILE *f2;
     
     f2 = fopen("arq2.bin", "wb");
@@ -71,7 +71,7 @@ int main(void){
 
     //TERCEIRO ARQUIVO - modo nao aleatorio
 
-        //abertura do arquivo e verificacao
+    //abertura do arquivo e verificacao
     FILE *f3;
     
     f3 = fopen("arq3.bin", "wb");
